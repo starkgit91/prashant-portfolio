@@ -76,6 +76,18 @@ export default function Home() {
           </Card>
         </section>
       </div>
+      <div className="mt-10 w-full max-w-3xl grid grid-cols-1 md:grid-cols-2 gap-4">
+        <Card>
+          <CardContent>
+            <h2 className="text-xl font-semibold text-black">Explore More</h2>
+            <ul className="list-disc list-inside text-black">
+              <li><Link href="/hackathons" className="text-blue-600 underline">Hackathon Participations</Link></li>
+              <li><Link href="/ml-projects" className="text-blue-600 underline">Machine Learning Projects</Link></li>
+              <li><Link href="/contact" className="text-blue-600 underline">Contact</Link></li>
+            </ul>
+          </CardContent>
+        </Card>
+      </div>
     </main>
   );
 }
