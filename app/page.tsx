@@ -13,19 +13,19 @@ export default function Home() {
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-4">
             <Link href="https://linkedin.com/in/prashant-mishra-976708157" target="_blank">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white">LinkedIn</Button>
+              <Button className="bg-blue-800 hover:bg-blue-700 text-white">LinkedIn</Button>
             </Link>
             <Link href="https://github.com/starkgit91" target="_blank">
               <Button className="bg-gray-800 hover:bg-black text-white">GitHub</Button>
             </Link>
             <Link href="https://drive.google.com/file/d/1IBBDi0EcNXQ4xiTMYaw3Rx1tNBXe6ZVm/view" target="_blank">
-              <Button className="bg-green-600 hover:bg-green-700 text-white">Resume</Button>
+              <Button className="bg-blue-800 hover:bg-green-700 text-white">Resume</Button>
             </Link>
             <Link href="https://codeforces.com/profile/thetwoface" target="_blank">
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white">Codeforces</Button>
+              <Button className="bg-blue-800 hover:bg-purple-700 text-white">Codeforces</Button>
             </Link>
             <Link href="https://leetcode.com/u/imnoobcoder/" target="_blank">
-              <Button className="bg-purple-600 hover:bg-purple-700 text-white">Leetcode</Button>
+              <Button className="bg-blue-800 hover:bg-purple-700 text-white">Leetcode</Button>
             </Link>
           </div>
         </header>
